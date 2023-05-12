@@ -1,10 +1,10 @@
 import styled from '@emotion/styled';
 
 export const Form = styled.form`
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   padding: 20px;
   border: 1px solid #000000;
-  border-radius: 4px;
+  border-radius: 8px;
 `;
 
 export const Label = styled.label`
@@ -16,5 +16,5 @@ export const Label = styled.label`
 export const Input = styled.input`
   display: block;
   margin-bottom: 12px;
-  border-radius: 4px;
+  border-radius: 8px;
 `;

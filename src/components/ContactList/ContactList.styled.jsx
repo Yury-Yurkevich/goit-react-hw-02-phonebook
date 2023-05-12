@@ -10,7 +10,7 @@ export const Item = styled.li`
   justify-content: start;
   align-items: center;
   font-weight: 500;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 
   &::before {
     content: '';
@@ -23,7 +23,7 @@ export const Item = styled.li`
 
   & > button {
     display: none;
-    width: 80px;
+    width: 100px;
   }
 
   &:hover > button {
@@ -32,9 +32,9 @@ export const Item = styled.li`
 `;
 
 export const Name = styled.span`
-  width: 160px;
+  width: 200px;
 `;
 
 export const Number = styled.span`
-  width: 80px;
+  width: 500px;
 `;
